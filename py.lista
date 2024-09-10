@@ -1,0 +1,13 @@
+lista = { 'Arroz': 18.00,
+          'Feijão': 7.99,
+          'Alface': 1.98,
+          'Batata': 4.59,
+          'Macarrão': 2.99 }
+while True:
+  produto = (input("Qual produto deseja consultar o preço?"))
+  if produto in lista:
+    print("O preço é: R$", lista[produto])
+  elif produto == 'Fim':
+    break
+  else:
+    print("ERRADO, tente novamente")
