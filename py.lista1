@@ -1,0 +1,7 @@
+def verproduto(nome,estoque)
+  indice = 0
+  for produto in estoque:
+    if produto[0] == nome:
+      return indice, produto[1], [produto2]
+    indice+=1
+    print(nome)
