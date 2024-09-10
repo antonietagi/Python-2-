@@ -1,0 +1,11 @@
+livros = {"Senhor dos Anéis": "Ficção de Aventuras"
+          "Perdida": "Romance"}
+print(livros.keys())
+while True:
+produto = (input("Qual livro deseja consultar?"))
+  if produto in livros:
+    print(livros[produto])
+  elif produto == 'Fim':
+    break
+  else:
+    print("ERRADO, tente novamente")
