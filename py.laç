@@ -1,0 +1,6 @@
+print('\033[1;35mQuer saber se o ano é bissexto? Digite abaixo:\033[m')
+ano = int(input('Em que ano você está?'))
+if ano % 4 == 0:
+    print(f'O ano {ano} que você está é bissexto')
+else:
+    print(f'O ano {ano} que você está NÃO é bissexto')
