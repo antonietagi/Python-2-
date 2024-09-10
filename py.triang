@@ -1,0 +1,16 @@
+print('\033[1;35m=-\033[m'*24)
+print('\033[1;34mFORMANDO TRIÂNGULOS\033[m')
+print('\033[1;35m=-\033[m'*24)
+r1 = float(input('Qual o valor da primeira reta?'))
+r2 = float(input('Qual é o valor da segunda reta?'))
+r3 = float(input('Qual é o valor da terceira reta?'))
+if r1 + r2 > r3 and r2 + r3 > r1 and r3 + r1 > r2:
+    print('\033[1;32mPode ter um triângulo!!!!')
+    if r1 == r2 == r3:
+        print('\033[1;33mForma uma T EQUILÁTERO.')
+    elif r1 != r2 != r3 != r1:
+            print('\033[1;36mForma um T ESCALENO.')
+    else:
+            print('\033[1;31mForma um T ISÓSCELES.')
+else:
+     print('\033[7;35mEsse valores NÃO podem formar um triângulo.\033[m')
