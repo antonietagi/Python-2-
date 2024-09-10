@@ -1,0 +1,11 @@
+#pessoa = {}
+#print(pessoa)
+
+pessoa['nome'] = 'Isis'
+pessoa['idade'] = 24
+print(pessoa)
+
+pessoa ['nome'] = 'Giovanna'
+pessoa ['idade'] = 19
+print(pessoa)
+
